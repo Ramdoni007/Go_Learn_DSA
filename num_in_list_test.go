@@ -16,7 +16,7 @@ func TestNumInList(t *testing.T) {
 		{[]int{1, 2, 3, 4, 5}, 3, true},
 		{[]int{1, 2, 3, 4, 5}, 4, true},
 		{[]int{1, 2, 3, 4, 5}, 5, true},
-		{[]int{1, 2, 3, 4, 5}, 3, true},
+		{[]int{1, 2, 3, 4, 5}, 0, false},
 		{[]int{1, 2, 3, 4, -1}, -1, true},
 	}
 	for _, tc := range testCase {

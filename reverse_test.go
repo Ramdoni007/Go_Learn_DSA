@@ -6,7 +6,7 @@ import (
 )
 
 func TestReverse(t *testing.T) {
-	tests := []struct {
+	testCase := []struct {
 		word string
 		want string
 	}{
@@ -15,7 +15,7 @@ func TestReverse(t *testing.T) {
 		{"doni", "inod"},
 		{"virlin", "nilriv"},
 	}
-	for _, tc := range tests {
+	for _, tc := range testCase {
 		t.Run(fmt.Sprintf("%v", tc.word), func(t *testing.T) {
 			got := Reverse(tc.word)
 			if got != tc.want {
