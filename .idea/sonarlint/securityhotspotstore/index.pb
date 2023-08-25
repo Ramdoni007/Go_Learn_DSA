@@ -8,8 +8,6 @@ C
 reverse.go,2/8/2846e217fd20193591a23875d5a2a13e2de83a00
 ;
 sum_test.go,b/5/b50dc15d55acb7386557af313fa9c40bc3af57ca
-;
-fizzbuzz.go,f/d/fdf94d19d7fa49d6d11a020af3b441383fd5a6d9
 @
 fizzbuzz_test.go,e/9/e97b6fec4f76173178294e6c7a0e3e1487ee4867
 >
@@ -20,7 +18,5 @@ C
 base_to_dec_test.go,8/4/841e0511b1efe097f31697d1341a3c3e53473f40
 >
 base_to_dec.go,9/b/9b8d33d63723e5be728e53bcdf1e8e028ef99331
-C
-dec_to_base_test.go,1/4/14b8ef6c415f63847ea8d8a129a825c16effd39d
 6
 go.mod,c/4/c47645c391ad0571c40779079363c9d48412e18b
